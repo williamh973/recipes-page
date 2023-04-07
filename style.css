@@ -1,0 +1,690 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#container-entete {
+	width: 100%;
+	height: 160px;
+	background-color: rgb(50, 192, 50);
+	border-bottom: 4px solid rgba(0, 0, 0, 0.223);
+}
+
+#container-titre {
+	width: 100%;
+	height: 150px;
+	display: flex;
+}
+
+#titre {
+	font-size: 60px;
+	font-family: cursive;
+	margin: auto;
+	color: rgb(233, 233, 233);
+}
+
+
+
+#container-menu {
+	width: 70%;
+	height: 30px;
+	display: block;
+	margin: auto;
+}
+
+#menu {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.buttonMenu {
+	color: black;
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-decoration: none;
+}
+
+.buttonMenu:hover {
+	color: red;
+	transition: 0.5s ease;
+	text-shadow: 1px 1px 1px rgb(255, 115, 115);
+}
+
+.buttonMenu:active {
+	color: red;
+	border-bottom: 2px solid red;
+}
+
+
+
+
+#container-search {
+	width: 80%;
+	min-width: 700px;
+	height: 45px;
+	display: flex;
+	margin-top: 50px;
+	margin-left: auto;
+	justify-content: end;
+}
+
+#search {
+	width: 375px;
+	height: 45px;
+	border: 1px solid rgba(0, 0, 0, 0.303);
+	border-radius: 20px;
+	font-size: 18px;
+	outline: none;
+}
+
+#sub {
+	position: relative;
+	right: 50px;
+	width: 45px;
+	height: 45px;
+	background-color: transparent;
+	border: none;
+	font-size: 17px;
+	color: rgba(0, 0, 0, 0.89);
+	cursor: pointer;
+}
+
+#sub:hover {
+	color: red;
+	transition: 0.5s ease;
+	text-shadow: 1px 1px 1px rgb(255, 115, 115);
+}
+
+
+
+
+
+
+
+
+
+#page {
+	width: 100%;
+}
+
+
+.titre-menu {
+	width: 100%;
+	height: 80px;
+	font-size: 45px;
+	background-color: rgb(255, 255, 255);
+	padding-top: 20px;
+	text-align: center;
+	margin-top: 100px;
+	border-top: 1px solid rgba(0, 0, 0, 0.333);
+}
+
+
+
+
+#container-plat-1 {
+	width: 1500px;
+	margin-top: 50px;
+	display: flex;
+}
+
+#ensemble1 {
+	display: block;
+}
+
+
+
+#text1 {
+	width: 500px;
+	font-size: 22px;
+	margin-top: 10px;
+	font-style: italic;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#img1 {
+	width: 350px;
+	height: 275px;
+	margin-top: 30px;
+	margin-left: 65px;
+}
+
+
+#tableau-recette1 {
+	width: 480px;
+	height: 300px;
+	display: block;
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+
+#tableau {
+	width: 350px;
+	border-collapse: collapse;
+	font-size: 20px;
+	margin: auto;
+}
+
+tr {
+	height: 30px;
+}
+
+td {
+	width: 150px;
+	height: 25px;
+	border: 5px double rgba(150, 150, 150, 0.429);
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.382);
+}
+
+
+.names {
+	background-color: rgb(235, 144, 17);
+	font-weight: bold;
+	font-style: italic;
+}
+
+.number {
+	background-color: rgb(255, 150, 2);
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+
+#container-instruction1 {
+	width: 1000px;
+	height: 1000px;
+	color: black;
+	background-color: rgba(128, 128, 128, 0.148);
+	border-radius: 30px;
+}
+
+
+.titre-instru {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: rgb(255, 145, 0);
+	text-align: center;
+	font-size: 23px;
+	margin-top: 50px;
+}
+
+.ul-instru {
+	list-style-type: none;
+	margin-top: 30px;
+}
+
+#ul-instru1_1::before {
+	content: "Etape 1";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru1_2::before {
+	content: "Etape 2";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru1_3::before {
+	content: "Etape 3";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru1_4::before {
+	content: "Etape 4";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru1_5::before {
+	content: "Etape 5";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+
+.instruction {
+	width: 750px;
+	text-align: justify;
+	color: black;
+	margin: auto;
+}
+
+
+
+
+
+
+
+#bestWeek {
+	border-top: 1px solid rgba(0, 0, 0, 0.292);
+	padding-top: 100px;
+}
+
+
+#container-plat-2 {
+	width: 1500px;
+	margin-top: 50px;
+	display: flex;
+}
+
+
+
+#ensemble2 {
+	display: block;
+}
+
+
+
+#text2 {
+	width: 500px;
+	font-size: 22px;
+	margin-top: 10px;
+	font-style: italic;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#img2 {
+	width: 350px;
+	height: 350px;
+	margin-top: 30px;
+	margin-left: 65px;
+}
+
+#tableau-recette2 {
+	width: 480px;
+	height: 300px;
+	display: block;
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+#tableau2 {
+	width: 350px;
+	border-collapse: collapse;
+	margin: auto;
+	font-size: 20px;
+}
+
+
+
+#container-instruction2 {
+	width: 1000px;
+	height: 800px;
+	color: black;
+	background-color: rgba(128, 128, 128, 0.148);
+	border-radius: 30px;
+}
+
+
+#ul-instru2_1::before {
+	content: "Etape 1";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru2_2::before {
+	content: "Etape 2";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru2_3::before {
+	content: "Etape 3";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru2_4::before {
+	content: "Etape 4";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru2_5::before {
+	content: "Etape 5";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+
+
+
+
+
+
+
+#recipeWinter {
+	border-top: 1px solid rgba(0, 0, 0, 0.292);
+	padding-top: 100px;
+}
+
+
+#container-plat-3 {
+	width: 1500px;
+	margin-top: 50px;
+	display: flex;
+}
+
+
+
+#ensemble3 {
+	display: block;
+}
+
+
+
+#text3 {
+	width: 500px;
+	font-size: 22px;
+	margin-top: 10px;
+	font-style: italic;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#img3 {
+	width: 350px;
+	height:350px;
+	margin-top: 30px;
+	margin-left: 65px;
+}
+
+
+#tableau-recette3 {
+	width: 480px;
+	height: 300px;
+	display: block;
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+
+#tableau3 {
+	width: 350px;
+	border-collapse: collapse;
+	margin: auto;
+	font-size: 20px;
+}
+
+
+
+#container-instruction3 {
+	width: 1000px;
+	height: 750px;
+	color: black;
+	background-color: rgba(128, 128, 128, 0.148);
+}
+
+
+#ul-instru3_1::before {
+	content: "Etape 1";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru3_2::before {
+	content: "Etape 2";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+
+
+
+
+
+
+
+
+#recipeSummer {
+	border-top: 1px solid rgba(0, 0, 0, 0.292);
+	padding-top: 100px;
+}
+
+
+
+#container-plat-4 {
+	width: 1500px;
+	height: 900px;
+	margin-top: 50px;
+	display: flex;
+}
+
+#ensemble4 {
+	display: block;
+}
+
+
+#text4 {
+	width: 500px;
+	font-size: 22px;
+	margin-top: 10px;
+	font-style: italic;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#img4 {
+	width: 370px;
+	height:350px;
+	margin-top: 30px;
+	margin-left: 55px;
+}
+
+
+#tableau-recette4 {
+	width: 480px;
+	height: 300px;
+	display: block;
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+
+#tableau4 {
+	width: 350px;
+	border-collapse: collapse;
+	margin: auto;
+	font-size: 20px;
+}
+
+#container-tableau4_2 {
+	width: 480px;
+	height: 30px;
+	display: block;
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	border: none;
+	background-color: white;
+}
+#tableau4_2 {
+	width: 350px;
+	margin: auto;
+	font-size: 20px;
+}
+.pLarge {
+	width: 341px;
+}
+#tableau4_3 {
+	width: 350px;
+	border-collapse: collapse;
+	margin: auto;
+	font-size: 20px;
+}
+
+#container-instruction4 {
+	width: 1000px;
+	height: 920px;
+	color: black;
+	background-color: rgba(128, 128, 128, 0.148);
+}
+
+#ul-instru4_1::before {
+	content: "Etape 1";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru4_2::before {
+	content: "Etape 2";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru4_3::before {
+	content: "Etape 3";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru4_4::before {
+	content: "Etape 4";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru4_5::before {
+	content: "Etape 5";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru4_6::before {
+	content: "Etape 6";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+#ul-instru4_7::before {
+	content: "Etape 7";
+	color: rgb(255, 145, 0);
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 125px;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+	width: 100%;
+	height: 100px;
+	margin-top: 200px;
+	padding-top: 70px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(50, 192, 50);
+	border-top: 4px solid rgba(0, 0, 0, 0.223);
+}
+
+#footer {
+	width: 60%;
+	height: 200px;
+	display: flex;
+	justify-content: end;
+	position: relative;
+	bottom: 150px;
+}
+
+
+#text-top {
+	display: flex;
+	height: 50px;
+	position: relative;
+	top: 160px;
+}
+
+#text {
+	width: 510px;
+	color: rgb(232, 232, 232);
+}
+
+#container-top {
+	width: 128px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+#click-to-top {
+	color: rgb(232, 232, 232);
+	font-size: 18px;
+	text-decoration: none;
+}
+
+
+#feuille {
+	width: 200px;
+	height: 200px;
+	min-width: 200px;
+	background-color: white;
+	border: 1px solid black;
+	border-top-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+}
+
+
+#img-footer {
+	width: 60px;
+	height: 80px;
+	display: flex;
+	margin: auto;
+	margin-top: 60px;
+}
